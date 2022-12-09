@@ -13,7 +13,6 @@ body {
   margin: 0;
   display: flex;
   align-items: start;
-  flex-direction: column;
   min-width: 100vw;
   min-height: 100vh;
   background-color: #4158d0;
@@ -63,9 +62,7 @@ body {
   position: fixed;
   top: 1rem;
   right: 1rem;
-  /* background: #e06c78; */
   background-color: white;
-  /* color: #e06c78; */
   border-radius: 2rem;
   display: none;
   align-items: center;
@@ -82,6 +79,5 @@ body {
 }
 
 #graph {
-  width: 99vw;
-  height: calc(100vh - 24rem);
+  height: 100vh;
 }
